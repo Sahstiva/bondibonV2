@@ -2,7 +2,7 @@ import Vue from 'vue';
 import { library, config } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import {
-  faSignInAlt, faAlignRight, faShoppingBasket,
+  faSignInAlt, faAlignRight, faShoppingBasket, faRubleSign,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faHeart,
@@ -10,7 +10,7 @@ import {
 
 config.autoAddCss = true;
 library.add(
-  faSignInAlt, faAlignRight, faShoppingBasket, faHeart,
+  faSignInAlt, faAlignRight, faShoppingBasket, faHeart, faRubleSign,
 );
 
 Vue.component('FontAwesomeIcon', FontAwesomeIcon);
