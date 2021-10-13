@@ -3,6 +3,8 @@
     <header-main />
     <menu-main />
     <Nuxt />
+    <subscribe-main />
+    <footer-main />
   </div>
 </template>
 
